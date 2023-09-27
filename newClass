@@ -1,0 +1,12 @@
+public class Calculadora {
+
+    public int sumar(int num1, int num2) {
+        return num1 + num2;
+    }
+
+    public static void main(String[] args) {
+        Calculadora calc = new Calculadora();
+        int resultado = calc.sumar(5, 7);
+        System.out.println("El resultado de la suma es: " + resultado);
+    }
+}
